@@ -12,9 +12,9 @@ function AppAlbum() {
         </Typography>
         <Grid container spacing={4} justifyContent="center">
           <AppCard name='Miguel Angel Tornero Carrillo' id='A00820449'/>
-          <AppCard name='Alberto Jorge Treviño González' id=""/>
+          <AppCard name='Alberto Jorge Treviño González' id="A00824493"/>
           <AppCard name='Francisco Salgado Guízar' id=""/>
-          <AppCard name='Mariano Carlos Gerardo Shaar Gutiérrez' id=""/>
+          <AppCard name='Mariano Carlos Gerardo Shaar Gutiérrez' id="A00825287"/>
         </Grid>
       </Container>
      );
