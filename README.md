@@ -3,4 +3,5 @@
 - _  
 - _  
 - _  
-Github Pages link: <https://a00820449.github.io/e-commerce/>
+## Deploy
+Github Pages: <https://a00820449.github.io/e-commerce/>
