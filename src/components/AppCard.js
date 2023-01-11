@@ -6,24 +6,27 @@ import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
-function AppCard() {
+/**
+ * @param {{name: string}} param0 
+ */
+function AppCard({name}) {
     return (
-      <Grid item xs={12} sm={6} md={4}>
+      <Grid item xs={12} sm={6} md={3}>
         <Card
-          sx={{ /*height: '100%',*/ display: 'flex', flexDirection: 'column' }}
+          sx={{display: 'flex', flexDirection: 'column' }}
         >
           <CardMedia
-            component="img"
-            /*sx={{
+            /*component="img"*/
+            sx={{
               // 16:9
-              pt: '56.25%',
-            }}*/
+              pt: '100%',
+            }}
             image="https://source.unsplash.com/random"
             alt="random"
           />
           <CardContent sx={{ flexGrow: 1 }}>
             <Typography gutterBottom variant="h5" component="h2">
-              Heading
+              {name||"Name"}
             </Typography>
             <Typography>
               This is a media card. You can use this section to describe the
