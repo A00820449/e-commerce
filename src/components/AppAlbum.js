@@ -11,10 +11,10 @@ function AppAlbum() {
             Nuestro Equipo
         </Typography>
         <Grid container spacing={4} justifyContent="center">
-          <AppCard name='Miguel Angel Tornero Carrillo'/>
-          <AppCard name='Alberto Jorge Treviño González'/>
-          <AppCard name='Francisco Salgado Guízar'/>
-          <AppCard name='Mariano Carlos Gerardo Shaar Gutiérrez'/>
+          <AppCard name='Miguel Angel Tornero Carrillo' id='A00820449'/>
+          <AppCard name='Alberto Jorge Treviño González' id=""/>
+          <AppCard name='Francisco Salgado Guízar' id=""/>
+          <AppCard name='Mariano Carlos Gerardo Shaar Gutiérrez' id=""/>
         </Grid>
       </Container>
      );

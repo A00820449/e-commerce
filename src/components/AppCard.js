@@ -7,9 +7,9 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 /**
- * @param {{name: string}} param0 
+ * @param {{name: string, id: string}} param0 
  */
-function AppCard({name}) {
+function AppCard({name, id}) {
     return (
       <Grid item xs={12} sm={6} md={3}>
         <Card
@@ -18,7 +18,6 @@ function AppCard({name}) {
           <CardMedia
             /*component="img"*/
             sx={{
-              // 16:9
               pt: '100%',
             }}
             image="https://source.unsplash.com/random"
@@ -29,8 +28,7 @@ function AppCard({name}) {
               {name||"Name"}
             </Typography>
             <Typography>
-              This is a media card. You can use this section to describe the
-              content.
+              {id||"A00000000"}
             </Typography>
           </CardContent>
           <CardActions>
