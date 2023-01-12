@@ -13,7 +13,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        MUI
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -21,7 +21,11 @@ function Copyright() {
   );
 }
 
-const theme = createTheme();
+const theme = createTheme({
+  palette: {
+    mode: "dark"
+  }
+});
 
 export default function Home() {
   return (
@@ -35,7 +39,7 @@ export default function Home() {
       {/* Footer */}
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
-          Footer
+          Comercio electrónico (Gpo 1)
         </Typography>
         <Typography
           variant="subtitle1"
@@ -43,7 +47,7 @@ export default function Home() {
           color="text.secondary"
           component="p"
         >
-          Something here to give the footer a purpose!
+          Template provided by MUI
         </Typography>
         <Copyright />
       </Box>
