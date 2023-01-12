@@ -23,7 +23,7 @@ function Copyright() {
 
 const theme = createTheme({
   palette: {
-    mode: "dark"
+    /*mode: "dark"*/
   }
 });
 

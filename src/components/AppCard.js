@@ -13,7 +13,7 @@ function AppCard({name, id, imageURL, children}) {
     return (
       <Grid item xs={12} sm={6} md={6}>
         <Card
-          sx={{display: 'flex', flexDirection: 'column' }}
+          sx={{display: 'flex', flexDirection: 'column', boxShadow: 4 }}
         >
           <CardMedia
             /*component="img"*/

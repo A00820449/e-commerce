@@ -4,7 +4,7 @@ function AppHero() {
     return ( 
         <Box
           sx={{
-            /*bgcolor: 'background.paper',*/
+            bgcolor: 'rgba(0,0,0,0.1)',
             pt: 8,
             pb: 6,
           }}
